@@ -98,7 +98,7 @@ Sample output:
 
 =begin HTML
 
-<img src="" />
+<img src="https://perlancar.files.wordpress.com/2015/01/screenshot-http-tiny-progany-1.jpg" />
 
 =end HTML
 
