@@ -49,7 +49,8 @@ sub _data_callback {
             pos => $new_pos,
             message => sub {
                 my @msg = (
-                    "Downloading ", $url, " ",
+                    "<elspan prio=2>Downloading </elspan>",
+                    "<elspan prio=3 truncate=middle>", $url, " </elspan>",
                     format_metric($new_pos),
                 );
                 if ($progress->target) {
