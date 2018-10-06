@@ -86,7 +86,7 @@ sub request {
  use Progress::Any::Output;
 
  Progress::Any::Output->set("TermProgressBarColor");
- my $resp = HTTP::Tiny->new->get("http://example.com/some-big-file");
+ my $resp = HTTP::Tiny::ProgressAny->new->get("http://example.com/some-big-file");
  # you will see a progress bar in your terminal
 
 
